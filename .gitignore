@@ -83,6 +83,9 @@ web_modules/
 .cache
 .parcel-cache
 
+# Babel build output
+lib
+
 # Next.js build output
 .next
 out
