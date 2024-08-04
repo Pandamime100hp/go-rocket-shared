@@ -51,7 +51,7 @@ jobs:
           path: lib
 
   publish:
-    if: needs.build == 'success' && github.ref == 'refs/heads/main'
+    if: needs.build.result == 'success' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     steps:
