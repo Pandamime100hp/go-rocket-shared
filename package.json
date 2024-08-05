@@ -6,7 +6,7 @@
     "author": "Makar Emeliyanov",
     "main": "src/index.js",
     "scripts": {
-        "test": "echo \"Placeholder\"", 
+        "test": "echo \"Placeholder\"",
         "build": "babel src --out-dir lib",
         "prepublishOnly": "npm run build"
     },
@@ -25,11 +25,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/pandamime100hp/go-rocket-shared.git" 
+        "url": "git+https://github.com/pandamime100hp/go-rocket-shared.git"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org/",
         "access": "public"
     }
 }
-  
