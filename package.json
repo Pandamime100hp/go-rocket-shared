@@ -1,6 +1,6 @@
 {
     "name": "@pandamime100hp/go-rocket-shared",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Library for hosting shared code for the Go Rocket website",
     "license": "MIT",
     "author": "Makar Emeliyanov",
