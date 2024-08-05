@@ -69,4 +69,4 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          AUTOMATION_GO_ROCKET_SHARED: ${{ secrets.AUTOMATION_GO_ROCKET_SHARED }}
+          NODE_AUTH_TOKEN: ${{ secrets.AUTOMATION_GO_ROCKET_SHARED }}
