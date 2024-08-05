@@ -25,7 +25,8 @@
         "url": "https://github.com/@pandamime100hp/go-rocket-shared.git" 
     },
     "publishConfig": {
-        "registry": "https://registry.npmjs.org/"
+        "registry": "https://registry.npmjs.org/",
+        "access": "public"
     }
 }
   
