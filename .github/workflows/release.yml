@@ -34,6 +34,7 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.AUTOMATION_GO_ROCKET_SHARED }}
         run: npx semantic-release
       - name: Publish to npm
         run: npm publish
