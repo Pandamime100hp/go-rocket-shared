@@ -1,0 +1,5 @@
+jest.config.js
+__test__
+node_modules
+.github
+.gitignore
